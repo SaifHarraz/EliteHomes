@@ -1,0 +1,54 @@
+@media (min-width: 576px) {
+  #testimonialsCarousel {
+    padding: 0 4rem;
+  }
+  .testimonial-quote {
+    font-size: var(--fs-lg);
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-top {
+    text-align: start;
+  }
+  .footer-top .footer-socials {
+    justify-content: flex-end !important;
+    margin-top: 0;
+  }
+  .services-nav {
+    flex-wrap: wrap !important;
+    overflow-x: visible;
+    justify-content: center !important;
+  }
+  .section-heading {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .dropdown-menu.properties-mega {
+    border-radius: var(--card-radius);
+    border: 1px solid rgba(124, 58, 237, 0.12);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18);
+    padding: 1.5rem 1.75rem;
+    background: #fff;
+    position: fixed !important;
+    top: 64px !important;
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%) !important;
+    width: min(1080px, calc(100vw - 4rem));
+    margin: 0 !important;
+    inset: auto !important;
+  }
+
+  .dropdown-menu.properties-mega .row {
+    --bs-gutter-x: 2.25rem;
+  }
+  .section-heading {
+    font-size: 2.75rem;
+  }
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
+}
